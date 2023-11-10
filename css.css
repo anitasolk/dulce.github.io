@@ -1,0 +1,64 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.imgheader{
+    background-repeat: no-repeat;
+}
+@font-face{
+    font-family: buttershine ;
+    src: url(BUTTERSHINE\ SERIF.otf);
+}
+.tituloheader{
+    font-family: buttershine ;
+    font-size: 95px;
+    margin-left: 1em;
+    margin-top: -1em;
+}
+body{
+    background-image: linear-gradient( white, violet,rgb(204, 0, 255)) ;
+    overflow-x: hidden; /* sacar scrol horizontal*/
+}
+.imagenesbody{
+    top:2em;
+    left:5em;
+}
+.textobody{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
+    left:35em;
+    top: 15em;
+    width: 69em;
+    line-height: 2em;
+    display: flex;
+    position: absolute;
+}
+footer{
+    padding: 80px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    bottom: 0;
+    border:0;
+    left: 0; 
+}
+.icono{
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+}
+ul{ 
+    list-style:none;
+}
+.ico1{
+    margin-left: 0em;
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+}
+.ico2{
+    margin-left: 10em;
+    display: flex;
+    position: absolute;
+    bottom: 5px;
+}
